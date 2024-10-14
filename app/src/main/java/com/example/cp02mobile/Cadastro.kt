@@ -37,19 +37,23 @@ class Cadastro : Fragment() {
 
         val btnCadastrar = view.findViewById<Button>(R.id.btnCadastrar)
         val inputNome = view.findViewById<EditText>(R.id.inputNome)
+        val inputNomeUser = view.findViewById<EditText>(R.id.inputNomeUser)
+        val inputRaca = view.findViewById<EditText>(R.id.inputRaca)
 
         btnCadastrar.setOnClickListener {
             val nome = inputNome.text.toString()
+            val nomeUser = inputNomeUser.text.toString()
+            val raca = inputRaca.text.toString()
             val escolhido = spinnerSelecionarItem()
 
             val resultado = when (escolhido) {
-                "Laranja" -> "O(A) $nome é um gato Brincalhão e cheio de energia, sempre pronto para explorar e conquistar novos lugares."
-                "Preto" -> "O(A) $nome é um gato Misterioso e elegante, tem um charme único e é um verdadeiro companheiro nas horas mais tranquilas."
-                "Cinza" -> "O(A) $nome é um gato Calmo e carinhoso, adora um colo quentinho e momentos de puro relaxamento."
-                "Branco" -> "O(A) $nome é um gato Delicado e curioso, gosta de manter tudo em ordem e é muito observador."
-                "Siamês" -> "O(A) $nome é um gato Falante e cheio de personalidade, adora atenção e se faz notar em qualquer ambiente."
-                "Tigrado" -> "O(A) $nome é um gato Aventureiro e esperto, está sempre pronto para caçar e descobrir algo novo."
-                else -> "O(A) $nome tem uma cor desconhecida."
+                "Laranja" -> "Olá $nomeUser, O(A) $nome, da raça $raca, é um gato Brincalhão e cheio de energia, sempre pronto para explorar e conquistar novos lugares."
+                "Preto" -> "Olá $nomeUser, O(A) $nome, da raça $raca, é um gato Misterioso e elegante, tem um charme único e é um verdadeiro companheiro nas horas mais tranquilas."
+                "Cinza" -> "Olá $nomeUser, O(A) $nome, da raça $raca, é um gato Calmo e carinhoso, adora um colo quentinho e momentos de puro relaxamento."
+                "Branco" -> "Olá $nomeUser, O(A) $nome, da raça $raca, é um gato Delicado e curioso, gosta de manter tudo em ordem e é muito observador."
+                "Siamês" -> "Olá $nomeUser, O(A) $nome, da raça $raca, é um gato Falante e cheio de personalidade, adora atenção e se faz notar em qualquer ambiente."
+                "Tigrado" -> "Olá $nomeUser, O(A) $nome, da raça $raca, é um gato Aventureiro e esperto, está sempre pronto para caçar e descobrir algo novo."
+                else -> "Olá $nomeUser, O(A) $nome, da raça $raca, tem uma cor desconhecida."
             }
 
 
