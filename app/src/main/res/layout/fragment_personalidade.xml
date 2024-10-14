@@ -9,10 +9,16 @@
 
     <TextView
         android:id="@+id/txtResultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="315dp"
+        android:layout_height="280dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
 </androidx.constraintlayout.widget.ConstraintLayout>

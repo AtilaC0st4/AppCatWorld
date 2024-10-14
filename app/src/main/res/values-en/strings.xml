@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cp02Mobile</string>
+    <string name="Descubra">Discover your cat's true personality: secrets, quirks, and curiosities that only they have!</string>
+    <string name="Conheca">Get to know your kitty better</string>
+    <string name="Cadastro">Registration</string>
+    <string name="Personalidade">Personality</string>
+    <string name="Voltar">Back</string>
+    <string name="NomeGato">Your cat's name</string>
+    <string name="Cadastrar">Register</string>
+
+</resources>
