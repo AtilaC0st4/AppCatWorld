@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Cp02Mobile</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name= "Descubra">Descubra a verdadeira personalidade do seu gato: segredos, manias e curiosidades que só ele tem!</string>
+    <string name="Conheca">Conheça mais o seu gatinho</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="Personalidade">Personalidade</string>
+    <string name="Voltar">Voltar</string>
+    <string name="NomeGato">Nome do seu gatinho</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name= "nomeUser" >Digite seu nome</string>
+    <string name= "raca" >Digite a raca do seu gato</string>
 </resources>

@@ -36,7 +36,7 @@ class Cadastro : Fragment() {
         spinnerExibicao()
 
         val btnCadastrar = view.findViewById<Button>(R.id.btnCadastrar)
-        val inputNome = view.findViewById<EditText>(R.id.inputNome)
+        val inputNome = view.findViewById<EditText>(R.id.inputRaca)
         val inputNomeUser = view.findViewById<EditText>(R.id.inputNomeUser)
         val inputRaca = view.findViewById<EditText>(R.id.inputRaca)
 
